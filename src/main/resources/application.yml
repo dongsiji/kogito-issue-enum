@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: password
+
+kogito:
+  persistence:
+    type: jdbc
+
+server:
+  port: 8082
