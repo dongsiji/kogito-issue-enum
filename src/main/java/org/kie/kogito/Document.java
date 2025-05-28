@@ -8,12 +8,4 @@ import lombok.Setter;
 public class Document {
     private DocumentTitleCode documentTitleCode;
     private OutcomeReasonCode outcomeReasonCode;
-
-    public enum DocumentTitleCode {
-        OTHERS
-    }
-
-    public enum OutcomeReasonCode {
-        OTHERS
-    }
 }
