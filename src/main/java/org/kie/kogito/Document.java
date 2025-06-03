@@ -1,11 +1,13 @@
 package org.kie.kogito;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class Document {
-    private DocumentTitleCode documentTitleCode;
-    private OutcomeReasonCode outcomeReasonCode;
+    private Boolean documentTitleCode;
+
+    public Boolean getDocumentTitleCode() {
+        return documentTitleCode;
+    }
+
+    public void setDocumentTitleCode(final Boolean documentTitleCode) {
+        this.documentTitleCode = documentTitleCode;
+    }
 }
